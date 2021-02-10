@@ -1,0 +1,48 @@
+header {
+  text-transform: uppercase;
+  text-align: center;
+  color: white;
+}
+nav div.my-bg {
+  background-color: #2C3E50;
+}
+section.my-bg {
+  background-color: #1ABC9C;
+}
+img {
+  height: 200px;
+}
+
+h1 {
+  margin-bottom: 0;
+}
+
+.my-line-star div {
+  width: 120px;
+  border: 1px solid white;
+  display: inline-block;
+  vertical-align: middle;
+}
+.my-line-star {
+  line-height: 35px;
+  font-size: 1.2em;
+}
+
+/* --- PRIMA SEZIONE MAIN --- */
+.my-section-1 {
+  text-align: center;
+}
+main h2 {
+  text-transform: uppercase;
+}
+.my-section-1 .my-line-star div {
+  width: 120px;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  color: black;
+}
+.my-section-1 .my-line-star {
+  line-height: 35px;
+  font-size: 1.2em;
+}
