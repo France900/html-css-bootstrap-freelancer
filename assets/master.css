@@ -1,3 +1,36 @@
+/* --- INIZIO STELLE --- */
+.my-line-star {
+  text-align: center;
+}
+.light {
+  color: white;
+}
+.dark {
+  color: black;
+}
+.the-line-star {
+  line-height: 35px;
+  font-size: 1.2em;
+}
+.my-line {
+  width: 120px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.darkmode div {
+  border: 1px solid black;
+  color: black;
+  color: white;
+}
+.lightmode div {
+  border: 1px solid white;
+  color: white;
+  } /* --- FINE STELLE --- */
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 header {
   text-transform: uppercase;
   text-align: center;
@@ -19,7 +52,8 @@ nav div.my-bg {
   background-color: #2C3E50;
 }
 
-section.my-bg {
+section.my-bg,
+.my-section-2  {
   background-color: #1ABC9C;
 }
 img {
@@ -30,32 +64,40 @@ h1 {
   margin-bottom: 0;
 }
 
-.my-line-star div {
-  width: 120px;
-  border: 1px solid white;
-  display: inline-block;
-  vertical-align: middle;
-}
-.my-line-star {
-  line-height: 35px;
-  font-size: 1.2em;
-}
 
 /* --- PRIMA SEZIONE MAIN --- */
 .my-section-1 {
   text-align: center;
 }
-main h2 {
+.my-section-2 {
+  color: white;
+  padding: 50px;
+}
+h2 {
   text-transform: uppercase;
 }
-.my-section-1 .my-line-star div {
-  width: 120px;
-  border: 1px solid black;
-  display: inline-block;
-  vertical-align: middle;
-  color: black;
+
+main img {
+  border-radius: 6px;
+  margin: 20px;
 }
-.my-section-1 .my-line-star {
-  line-height: 35px;
-  font-size: 1.2em;
+
+.my-container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+div.align {
+  width: 100%;
+  text-align: center;
+}
+.my-fck-btt {
+  line-height: 55px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+}
+.my-fck-btt i {
+  padding-right: 6px;
 }

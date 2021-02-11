@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>index-base</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" integrity="sha512-HK5fgLBL+xu6dm/Ii3z4xhlSUyZgTT9tuc/hSrtw6uzJOvgRr2a9jyxxT1ely+B+xFAmJKVSTbpM/CuL7qxO8w==" crossorigin="anonymous" /> <!-- link a font awesome, es per "carret down" (che trovi sul secondo sito ed è per i simboli) -->
-    <!-- link preload font [di google (va anche un pezzetto nel css)]-->
-    <!-- link font -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
     <!-- <link rel="stylesheet" href="/framework.css">  il mio framework con bootstrap non è piu utile-->
     <!-- Latest compiled and minified CSS --> <!-- da boostrp 3.3.7 https://getbootstrap.com/docs/3.3/getting-started/ -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -56,9 +56,9 @@
               <button type="submit" class="btn btn-default">Submit</button>
             </form> -->
             <ul class="nav navbar-nav navbar-right">
-              <li><a href="#">profile</a></li>
-              <li><a href="#">abouth</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="#my-portfolio">portfolio</a></li>
+              <li><a href="#my-about">about</a></li>
+              <li><a href="#my-contact">contact</a></li>
               <!-- <li class="dropdown">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
                 <ul class="dropdown-menu">
@@ -76,11 +76,13 @@
 
       <section class="container-fluid my-bg">
         <img src="./assets/img/avatar.svg" alt="">
-        <h1>start bootstrap</h1>
-        <div class="my-line-star">
-          <div class=""></div>
-          <span><i class="fas fa-star"></i></span>
-          <div class=""></div>
+        <div class="my-line-star light">
+          <h1>start bootstrap</h1>
+          <div class="the-line-star lightmode">
+            <div class="my-line"></div>
+            <span><i class="fas fa-star"></i></span>
+            <div class="my-line"></div>
+          </div>
         </div>
         <p>graphic artist - web designer - illustrator</p>
       </section>
@@ -88,20 +90,68 @@
     </header>
 
     <main>
-      <section class="my-section-1">
-        <h2>portfolio</h2>
-        <div class="my-line-star">
-          <div class=""></div>
-          <span><i class="fas fa-star"></i></span>
-          <div class=""></div>
+      <section  id="my-portfolio" class="my-section-1">
+        <div class="my-line-star dark">
+          <h2>portfolio</h2>
+          <div class="the-line-star darkmode">
+            <div class="my-line"></div>
+            <span><i class="fas fa-star"></i></span>
+            <div class="my-line"></div>
+          </div>
+        </div>
+        <div class="container">
+          <img src="./assets/img/cabin.png" alt="">
+          <img src="./assets/img/cake.png" alt="">
+          <img src="./assets/img/circus.png" alt="">
+          <img src="./assets/img/game.png" alt="">
+          <img src="./assets/img/safe.png" alt="">
+          <img src="./assets/img/submarine.png" alt="">
+        </div>
+      </section>
+
+      <section id="my-about" class="my-section-2">
+        <div class="my-container">
+          <div class="my-line-star light">
+            <h2>about</h2>
+            <div class="the-line-star lightmode">
+              <div class="my-line"></div>
+              <span><i class="fas fa-star"></i></span>
+              <div class="my-line"></div>
+            </div>
+          </div>
+          <article class="">
+            <p>
+              Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.
+            </p>
+          </article>
+          <article class="">
+            <p>
+              You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!
+            </p>
+          </article>
+          <div class="align">
+            <a class="my-fck-btt" href="#" role="button"><i class="fas fa-download"></i>Free Download!</a>
+          </div>
         </div>
       </section>
     </main>
 
-    <!-- Latest compiled and minified JavaScript --> <!-- da boostrp 3.3.7 https://getbootstrap.com/docs/3.3/getting-started/ -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <footer>
+      <section id="my-contact">
+        <div class="my-line-star dark">
+          <h2>contact me</h2>
+          <div class="the-line-star darkmode">
+            <div class="my-line"></div>
+            <span><i class="fas fa-star"></i></span>
+            <div class="my-line"></div>
+          </div>
+        </div>
+      </section>
+    </footer>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Latest compiled and minified JavaScript --> <!-- da boostrp 3.3.7 https://getbootstrap.com/docs/3.3/getting-started/ -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
   </body>
