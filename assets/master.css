@@ -65,10 +65,14 @@ h1 {
 }
 
 
-/* --- PRIMA SEZIONE MAIN --- */
 .my-section-1 {
   text-align: center;
 }
+.my-section-1 img:hover {
+  background-color: #1ABC9C;
+
+}
+
 .my-section-2 {
   color: white;
   padding: 50px;
