@@ -52,13 +52,20 @@ nav div.my-bg {
   background-color: #2C3E50;
 }
 
+section.my-bg{
+  padding-top: 60px;
+}
+
 section.my-bg,
 .my-section-2  {
   background-color: #1ABC9C;
 }
 img {
   height: 200px;
+  /* max-width: 100%; */
 }
+
+img:hover
 
 h1 {
   margin-bottom: 0;
@@ -83,7 +90,7 @@ h2 {
 
 main img {
   border-radius: 6px;
-  margin: 20px;
+  margin: 20px 0;
 }
 
 .my-container {
