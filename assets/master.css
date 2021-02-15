@@ -1,3 +1,7 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
 /* --- INIZIO STELLE --- */
 .my-line-star {
   text-align: center;
@@ -25,11 +29,67 @@
 .lightmode div {
   border: 1px solid white;
   color: white;
-  } /* --- FINE STELLE --- */
+} /* --- FINE STELLE --- */
 
-body {
-  font-family: 'Montserrat', sans-serif;
+/* <!-- NAVBAR --> */
+.navbar-default .navbar-brand,
+.navbar-default .navbar-nav > li > a {
+  color: white;
 }
+
+.navbar-default .navbar-nav > li > a:focus, .navbar-default .navbar-nav > li > a:hover {
+    color: white;
+    background-color: inherit;
+}
+.navbar-default .navbar-brand:focus, .navbar-default .navbar-brand:hover {
+    color: white;
+    background-color: inherit;
+}
+
+nav div.my-bg {
+  background-color: #2C3E50;
+}
+
+/* <!-- JUMBO --> */
+
+/* <!-- SECTION 1 --> */
+section.my-bg{
+  padding-top: 60px;
+}
+
+section.my-bg,
+.my-section-2  {
+  background-color: #1ABC9C;
+}
+.my-bg img {
+  height: 200px;
+  /* max-width: 100%; */
+  /* width: 80%; */
+}
+
+/* <!-- SECTION 2 --> */
+
+
+/* --- IL BOTTONE DI SECTION 2 --- */
+div.align {
+  text-align: center;
+}
+.my-fck-btt {
+  line-height: 100px;
+  padding: 15px;
+  border-radius: 10px;
+  border: 1px solid white;
+  color: white;
+}
+.my-fck-btt i {
+  padding-right: 10px;
+}
+.my-fck-btt:hover {
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  text-decoration: none;
+}/* --- FINE DEL BOTTONE DI SECTION 2 --- */
 
 header {
   text-transform: uppercase;
@@ -43,26 +103,14 @@ header {
   margin-bottom: 0;
 }
 
-.navbar-default .navbar-brand,
-.navbar-default .navbar-nav > li > a {
-  color: white;
-}
 
-nav div.my-bg {
-  background-color: #2C3E50;
-}
 
-section.my-bg{
-  padding-top: 60px;
-}
 
-section.my-bg,
-.my-section-2  {
-  background-color: #1ABC9C;
-}
-img {
+
+
+
+.my-section-1 img {
   height: 200px;
-  /* max-width: 100%; */
 }
 
 img:hover
@@ -98,17 +146,18 @@ main img {
   margin: 0 auto;
 }
 
-div.align {
-  width: 100%;
-  text-align: center;
+@media all and (max-width: 767px) { /*EXTRASMALL*/
+
 }
-.my-fck-btt {
-  line-height: 55px;
-  padding: 15px;
-  border-radius: 10px;
-  border: 1px solid white;
-  color: white;
+
+@media all and (min-width: 768px) and (max-width: 991px) { /*SMALL*/
+
 }
-.my-fck-btt i {
-  padding-right: 6px;
+
+@media all and (min-width: 992px) and (max-width: 1199px) { /*MEDIUM*/
+
+}
+
+@media all and (min-width: 1200px) { /*LARGE*/
+
 }
